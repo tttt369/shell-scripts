@@ -4,8 +4,8 @@ set -e
 aur_packages=(
     "floorp-bin"
     "vscodium-bin"
-    "anki-bin"
-    "qdirstat"
+    "qdirstat-bin"
+    "thorium-browser-bin"
 )
 
 packages=(
@@ -34,7 +34,6 @@ packages=(
     "emacs"
     "krita"
     "gparted"
-    "mangohud"
     "go"
     "file-roller"
     "qpwgraph"
@@ -96,6 +95,9 @@ packages=(
     "pipewire-audio"
     "wireplumber"
     "pacman-contrib"
+    "man"
+    "anki"
 )
 
 sudo pacman -S --needed "${packages[@]}"
+yay -S --needed "${aur_packages[@]}"
