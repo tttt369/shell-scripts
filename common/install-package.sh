@@ -6,6 +6,7 @@ aur_packages=(
     "vscodium-bin"
     "qdirstat-bin"
     "thorium-browser-bin"
+    "morewaita-icon-theme"
 )
 
 packages=(
