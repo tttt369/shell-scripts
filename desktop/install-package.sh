@@ -15,6 +15,7 @@ packages=(
     "nvidia-open-dkms"
     "gamemode"
     "lib32-gamemode"
+    "waydroid"
 )
 
 sudo pacman -S --needed "${packages[@]}"

@@ -8,6 +8,8 @@ GROUP_NAMES=(
     "adbusers"
     "wheel"
     "kvm"
+    "libvirt"
+    "libvirt-qemu"
 )
 
 for group in "${GROUP_NAMES[@]}"; do

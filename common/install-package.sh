@@ -98,6 +98,12 @@ packages=(
     "pacman-contrib"
     "man"
     "anki"
+    "tree-sitter-cli"
+    "lsp-plugins-lv2"
+    "npm"
+    "reaper"
+    "mitmproxy"
+    "telegram-desktop"
 )
 
 sudo pacman -S --needed "${packages[@]}"
