@@ -104,6 +104,7 @@ packages=(
     "reaper"
     "mitmproxy"
     "telegram-desktop"
+    "yt-dlp"
 )
 
 sudo pacman -S --needed "${packages[@]}"
